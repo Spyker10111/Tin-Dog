@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+p{
+    color: #8f8f8f;
+    font-family: "Ubuntu";
+}
+
+/*Headings*/
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 10%;
+  color:white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 13%;
+}
+
+
+.navbar{
+    padding-bottom: 3rem;
+}
+
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+.title-img{
+    width:50%;
+    right: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.feature-box{
+  padding: 5%;
+
+}
+
+/*features*/
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff46c8;
+}
+
+/*testimonials*/
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-text{
+  font-family: 'Ubuntu';
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*pricing*/
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.fa-brands{
+  padding: 2% 7px 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 10% 10%;
+  color: #fff
+
+}
+
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #fff;
+  ign: center;
+  padding-top: 5%;
+}
+
+@media (max-width:997px ) {
+
+  #title{
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
